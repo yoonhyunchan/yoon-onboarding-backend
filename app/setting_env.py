@@ -7,7 +7,7 @@ from dotenv import dotenv_values, set_key
 
 def get_secret():
 
-    secret_name = "dev/mainapp/env"
+    secret_name = "yoon/onboarding/env"
     region_name = "ap-northeast-2"
 
     # Create a Secrets Manager client
